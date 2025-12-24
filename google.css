@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(44, 43, 43);
+}
+h2{
+    font-family: Product Sans;
+    font-size: 90px;
+    position: absolute;
+    bottom: 40px;
+    top: 230px;
+    left: 42%;
+    cursor:context-menu;
+    
+}
+.g-blue{
+    color: rgb(17, 83, 180);
+}
+.o-red{
+    color: red;
+}
+.o-yellow{
+    color: rgb(172, 172, 15);
+}
+.l-green{
+    color: green;
+}
+.e-red{
+    color: red;
+}
+
+@media screen and (max-width: 767px) {
+    .search-box{
+    left: 2%;
+     width: 500px;
+     height: 70px;
+    }   
+  }
+button{
+    font-size: 15px;
+    width: 7vw;
+    height: 30px;
+    position:absolute;
+    bottom: 40px;
+    top: 500px;
+    border-radius: 5px;
+    border: none;
+}
+#lucky{
+    bottom: 40px;
+    left: 50%;
+    cursor:context-menu
+}
+#srh{
+    bottom: 50px;
+    left: 42%;  
+}
+
+.search-box{
+    position: absolute;
+    bottom: 40px;
+    top: 430px;
+    right: 650px;
+}
+.box{
+	width: 600px;
+	height: 5px;
+	background-color: white;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+
+
+.box > i {
+	font-size: 20px;
+	color: #777;
+}
+
+
+.box > input{
+	flex: 1;
+	height: 40px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	padding-left: 10px;
+}
+footer{
+background-color: rgb(20, 20, 20);
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.text-footer p{
+    margin-left: 40px;
+    color: white;
+   
+}
+.text-footer ul>li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+.text-footer ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+}
+.privacy{
+    margin: 0 0 0 60vw; 
+}
+.terms{
+    margin: 0 0 0 20px;
+}
+.set{
+    margin: 0 0 0 20px;
+}
+.text-footer ul>li>a:hover{
+    text-decoration:underline;
+    color: white;
+}
+.language{
+    position: absolute;
+    top: 550px;
+    left: 840px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: white;
+}
+.language a{
+    text-decoration: none;
+    color: blue;
+}
